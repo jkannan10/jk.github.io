@@ -1,0 +1,11 @@
+let a = "   Mathematics  ";
+console.log(a.charAt(10));
+console.log(a.indexOf("t"));
+console.log(a.lastIndexOf("t"));
+console.log(a);
+console.log(a.trim());
+console.log(a.split("t"));
+console.log(a.slice(5, 8));
+console.log(a.toUpperCase());
+console.log(a.toLowerCase());
+console.log(a.includes("false"));

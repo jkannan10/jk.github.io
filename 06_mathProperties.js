@@ -1,0 +1,12 @@
+let a = 10.87324;
+console.log(Math.PI);
+console.log(Math.trunc(Math.PI));
+console.log(Math.round(a));
+console.log(Math.floor(10));
+console.log(Math.ceil(10));
+console.log(Math.pow(10, 3));
+console.log(Math.min(12, 34, 6, -1));
+console.log(Math.max(37, 34, 112));
+console.log(Math.random() * 10000 + 239476);
+let b = "Mathematics Challenge";
+console.log(b.charAt(Math.round(Math.random() * b.length + 5) % b.length));

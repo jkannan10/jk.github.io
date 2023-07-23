@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <style>
+      div {
+        width: 200px;
+        height: 60px;
+        background-color: orange;
+        font-size: 15px;
+        color: white;
+        margin: 40px;
+        padding: 20px;
+        text-align: center;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <script defer src="19_DOM.js"></script>
+    <!-- ONCLICk event-->
+    <button id="but" onclick="demoOnClick()">click here</button>
+    <br />
+    <!--ONCHANGE Event-->
+    <span>Enter your name:</span>
+    <input type="text" id="name" onchange="upperCase()" />
+    <br />
+    <!--onmouseover and onmouseout Event-->
+    <div
+      class="div div1"
+      id="div1"
+      onmouseover="mouseOver()"
+      onmouseout="mouseOut()"
+    ></div>
+    <div
+      clas="div div2"
+      id="div2"
+      onmouseup=" mouseUp()"
+      onmousedown="mouseDown()"
+    ></div>
+  </body>
+</html>
